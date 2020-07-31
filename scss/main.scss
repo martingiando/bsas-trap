@@ -4,6 +4,10 @@
     box-sizing:0;
 }
 
+html{
+    height: 100%;
+}
+
 body{
     background-color: black;
     color: white;
@@ -88,6 +92,15 @@ nav{
     display: inline-block;
     .spotify__general{
         text-align: center;
+        .spotify__general--uno{
+            padding: 10px;
+        }
+        .spotify__general--dos{
+            padding: 10px;
+        }
+        .spotify__general--tres{
+            padding: 10px;
+        }
     }
 }
 
@@ -105,6 +118,19 @@ nav{
 	animation-duration: 2s;
 }
 
+.title__form--formulario{
+    min-height: 100vh;
+}
+
+.main--galeria{
+    min-height: 100vh;
+}
+
+.youtube_vid{
+    height: 400px;
+    width: 700px;
+}
+
 @keyframes opacidad{
 	0% {opacity: 0%}
 	100% {opacity: 100%}
@@ -115,8 +141,14 @@ nav{
 @media (max-width: 575.98px) {
     body{
         font-size: 1rem;
+        h1{
+            font-size: 2rem;
+        }
         h2{
             font-size: 1.7rem;
+        }
+        h3{
+            font-size: 1.4rem;
         }
         p{
             font-size: 1rem;
@@ -135,6 +167,16 @@ nav{
 
     .redes{
         width: 2.5rem;
+    }
+
+    .title__form{
+        font-size: 1.6rem;
+        margin: 10px;
+    }
+
+    .youtube_vid{
+        width: 300px;
+        height: 190px;
     }
 
 }
@@ -172,6 +214,10 @@ nav{
         }
     }
 
+    .youtube_vid{
+        width: 550px;
+    }
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -189,5 +235,10 @@ nav{
         .footer__general--bsastrap{
             font-size: 1.5rem;
         }
+    }
+
+    .youtube_vid{
+        height: 400px;
+        width: 700px;
     }
 }
