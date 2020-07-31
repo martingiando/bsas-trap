@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: 0; }
 
+html {
+  height: 100%; }
+
 body {
   background-color: black;
   color: white;
@@ -66,6 +69,12 @@ nav {
   display: inline-block; }
   .spotify .spotify__general {
     text-align: center; }
+    .spotify .spotify__general .spotify__general--uno {
+      padding: 10px; }
+    .spotify .spotify__general .spotify__general--dos {
+      padding: 10px; }
+    .spotify .spotify__general .spotify__general--tres {
+      padding: 10px; }
 
 .bg-info {
   background-color: #d2558a !important; }
@@ -78,6 +87,16 @@ nav {
   animation-name: opacidad;
   animation-duration: 2s; }
 
+.title__form--formulario {
+  min-height: 100vh; }
+
+.main--galeria {
+  min-height: 100vh; }
+
+.youtube_vid {
+  height: 400px;
+  width: 700px; }
+
 @keyframes opacidad {
   0% {
     opacity: 0%; }
@@ -87,8 +106,12 @@ nav {
 @media (max-width: 575.98px) {
   body {
     font-size: 1rem; }
+    body h1 {
+      font-size: 2rem; }
     body h2 {
       font-size: 1.7rem; }
+    body h3 {
+      font-size: 1.4rem; }
     body p {
       font-size: 1rem; }
   .footer__general {
@@ -98,7 +121,13 @@ nav {
     .footer__general .footer__general--bsastrap {
       font-size: 1.5rem; }
   .redes {
-    width: 2.5rem; } }
+    width: 2.5rem; }
+  .title__form {
+    font-size: 1.6rem;
+    margin: 10px; }
+  .youtube_vid {
+    width: 300px;
+    height: 190px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .body__header .body__header__nav .body__header__nav--links a {
@@ -114,7 +143,9 @@ nav {
     .footer__general div {
       justify-content: center !important; }
     .footer__general .footer__general--bsastrap {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem; }
+  .youtube_vid {
+    width: 550px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   body {
@@ -124,4 +155,7 @@ nav {
     body p {
       font-size: 1rem; }
   .footer__general .footer__general--bsastrap {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .youtube_vid {
+    height: 400px;
+    width: 700px; } }
