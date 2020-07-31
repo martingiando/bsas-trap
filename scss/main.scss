@@ -30,6 +30,11 @@ body{
     }
 }
 
+.navbar-toggler{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
 .footer__general{
     background-color: yellow;
     color: black;
@@ -43,6 +48,14 @@ body{
 .redes{
     width: 3.5rem;
     padding: 0.6rem;
+}
+
+a{
+    color: yellow;
+}
+
+.navbar-nav{
+    text-align: right;
 }
 
 .navegador{
