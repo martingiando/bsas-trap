@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Contacto Buenos Aires Trap">
+    <meta name="keywords" content="BSAS TRAP, BSAS TRAP CONTACTO, CONTACTO">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="img/iconbsastrap.png" type="image/x-icon">
+    <title>Bs As Trap Contacto</title>
+</head>
+
+<body>
+    <header class="container-fluid body__header text-center">
+        <div class="row body__header__nav">
+            <a class="col-lg-4 col-md-4 col-sm-12 body__header__nav--logo" href="index.html"><img
+                    src="img/logobsastrap.png" id="logo"></a>
+            <nav class="col-lg-8 col-md-8 col-sm-12 body__header__nav--links navegador justify-content-end">
+                <ul class="nav d-flex align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link navegador" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navegador" href="artistas-anteriores.html">Artistas Anteriores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navegador" href="galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navegador" href="multimedia.html">Multimedia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navegador" href="line-up.html">Line Up!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navegador" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1 class="text-center m-5">Formulario de contacto</h1>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-sm-12 col-md-8 col-lg-6 pb-5">
+                <form action="mail.php" method="post">
+                    <div class="card border-primary rounded-0">
+                        <div class="card-header p-0">
+                            <div class="bg-info text-white text-center py-2">
+                                <h3><i class="fa fa-envelope"></i> Contactanos</h3>
+                                <p class="m-0">Con gusto te ayudaremos</p>
+                            </div>
+                        </div>
+                        <div class="card-body p-3">
+                            <div class="form-group">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                    </div>
+                                    <input type="text" class="form-control" id="nombre" name="nombre"
+                                        placeholder="Nombre y Apellido" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                                    </div>
+                                    <input type="email" class="form-control" id="nombre" name="email"
+                                        placeholder="ejemplo@gmail.com" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
+                                    </div>
+                                    <textarea class="form-control" placeholder="Envianos tu Mensaje"
+                                        required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <input type="submit" value="Enviar" class="btn btn-info btn-block rounded-0 py-2">
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="container-fluid fixed-bottom footer__general">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-center footer__general--copy">
+                <p>&copy;Martín Giando</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center bsasfoot footer__general--bsastrap">
+                <strong>BUENOS AIRES TRAP</strong>
+            </div>
+            <div
+                class="col-lg-3 col-md-3 col-sm-12 justify-content-end d-flex align-items-center footer__general--redes">
+                <a href="https://www.instagram.com/bsastrap/"><img src="img/ig-logo.png" class="redes"></a>
+                <img src="img/spotify-logo.png" class="redes">
+                <a href="https://www.youtube.com/channel/UC32zmP6nqptOM_q5-Af348A"><img src="img/youtube-logo.png"
+                        class="redes"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

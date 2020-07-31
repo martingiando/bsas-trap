@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing:0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Red Rose', cursive;
+    h1{
+        font-weight: 700;
+    }
+    h2{
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    p{
+        font-weight: 400;
+    }
+    ul{
+        list-style-type: none;
+        li{
+            padding: 0.4rem;
+            a{
+                color: yellow;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+.footer__general{
+    background-color: yellow;
+    color: black;
+    font-size: 1rem;
+    padding: 0.8rem;
+    .footer__general--bsastrap{
+        font-size: 2.5rem;
+    }
+}
+
+.redes{
+    width: 3.5rem;
+    padding: 0.6rem;
+}
+
+.navegador{
+    .navegador:hover{
+        list-style: none;
+        color: #d2558a;
+    }
+}
+
+nav{
+    display: flex;
+    div{
+        justify-content: end;
+    }
+}
+
+.card-text{
+    color: black;
+}
+
+.yout{
+    display: inline-block;
+    .yout__video{
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+.spotify{
+    display: inline-block;
+    .spotify__general{
+        text-align: center;
+    }
+}
+
+.bg-info{
+	background-color: #d2558a!important;
+}
+
+.btn-info{
+	background-color: #d2558a;
+	border-color: #d2558a;
+}
+
+#logo{
+	animation-name: opacidad;
+	animation-duration: 2s;
+}
+
+@keyframes opacidad{
+	0% {opacity: 0%}
+	100% {opacity: 100%}
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    body{
+        font-size: 1rem;
+        h2{
+            font-size: 1.7rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    
+    .footer__general{
+        display: flex;
+        div{
+            justify-content: center!important;
+        }
+        .footer__general--bsastrap{
+            font-size: 1.5rem;
+        }
+    }
+
+    .redes{
+        width: 2.5rem;
+    }
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .body__header{
+        .body__header__nav{
+            .body__header__nav--links{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    body{
+        font-size: 1.2rem;
+        h2{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+
+    .footer__general{
+        display: flex;
+        div{
+            justify-content: center!important;
+        }
+        .footer__general--bsastrap{
+            font-size: 1.5rem;
+        }
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body{
+        font-size: 1rem;
+        h2{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    .footer__general{
+        .footer__general--bsastrap{
+            font-size: 1.5rem;
+        }
+    }
+}
