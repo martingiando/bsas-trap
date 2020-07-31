@@ -6,15 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap" rel="stylesheet">
     <meta name="description" content="Playlists del Buenos Aires Trap y Aftermovies">
     <meta name="keywords" content="BSAS TRAP, TRAP SPOTIFY, BSAS TRAP AFTERMOVIE">
@@ -24,33 +15,29 @@
 </head>
 
 <body>
-    <header class="container-fluid body__header text-center">
-        <div class="row body__header__nav">
-            <a class="col-lg-4 col-md-4 col-sm-12 body__header__nav--logo" href="index.html"><img
-                    src="img/logobsastrap.png" id="logo"></a>
-            <nav class="col-lg-8 col-md-8 col-sm-12 body__header__nav--links navegador justify-content-end">
-                <ul class="nav d-flex align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link navegador" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navegador" href="artistas-anteriores.html">Artistas Anteriores</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navegador" href="galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navegador" href="multimedia.html">Multimedia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navegador" href="line-up.html">Line Up!</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navegador" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+    <header>
+        <!-- inicio menu -->
+        <nav class="navbar navbar-expand-lg">
+            <!--logo-->
+            <a class="navbar-brand" href="index.html"><img src="img/logobsastrap.png" id="logo"></a>
+            <!--cierre logo-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon">
+                    <img src="img/menu.png" alt="">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav nav-tabs ml-auto">
+                    <a class="nav-item nav-link navegador" href="index.html">Home</a>
+                    <a class="nav-item nav-link navegador" href="artistas-anteriores.html">Artistas Anteriores</a>
+                    <a class="nav-item nav-link navegador" href="galeria.html">Galeria</a>
+                    <a class="nav-item nav-link navegador" href="multimedia.html">Multimedia</a>
+                    <a class="nav-item nav-link navegador" href="line-up.html">Line Up!</a>
+                    <a class="nav-item nav-link navegador" href="contacto.html">Contacto</a>
+                </div>
+            </div>
+        </nav>
+        <!-- cierre menu-->
     </header>
     <h1 class="text-center m-5">Playlists del Festival</h1>
     <div class="container-fluid spotify">
@@ -111,6 +98,16 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
