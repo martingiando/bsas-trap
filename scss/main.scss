@@ -56,6 +56,16 @@ body{
 
 a{
     color: yellow;
+    list-style: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
 }
 
 .navbar-nav{
@@ -63,10 +73,15 @@ a{
 }
 
 .navegador{
+    list-style: none;
     .navegador:hover{
         list-style: none;
-        color: #d2558a;
+        color: yellow;
     }
+}
+
+.yellowLet{
+    color: yellow;
 }
 
 nav{
@@ -105,12 +120,12 @@ nav{
 }
 
 .bg-info{
-	background-color: #d2558a!important;
+	background-color: rgb(255, 230, 0)!important;
 }
 
 .btn-info{
-	background-color: #d2558a;
-	border-color: #d2558a;
+	background-color: rgb(255, 230, 0);
+	border-color: rgb(255, 230, 0);
 }
 
 #logo{
@@ -134,6 +149,11 @@ nav{
 @keyframes opacidad{
 	0% {opacity: 0%}
 	100% {opacity: 100%}
+}
+
+.bglineup{
+    background-color: whitesmoke;
+    color: black;
 }
 
 
