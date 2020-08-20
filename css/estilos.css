@@ -42,14 +42,27 @@ body {
   padding: 0.6rem; }
 
 a {
-  color: yellow; }
+  color: yellow;
+  list-style: none; }
+
+a:link {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none;
+  color: white; }
 
 .navbar-nav {
   text-align: right; }
 
-.navegador .navegador:hover {
-  list-style: none;
-  color: #d2558a; }
+.navegador {
+  list-style: none; }
+  .navegador .navegador:hover {
+    list-style: none;
+    color: yellow; }
+
+.yellowLet {
+  color: yellow; }
 
 nav {
   display: flex; }
@@ -77,11 +90,11 @@ nav {
       padding: 10px; }
 
 .bg-info {
-  background-color: #d2558a !important; }
+  background-color: #ffe600 !important; }
 
 .btn-info {
-  background-color: #d2558a;
-  border-color: #d2558a; }
+  background-color: #ffe600;
+  border-color: #ffe600; }
 
 #logo {
   animation-name: opacidad;
@@ -102,6 +115,10 @@ nav {
     opacity: 0%; }
   100% {
     opacity: 100%; } }
+
+.bglineup {
+  background-color: whitesmoke;
+  color: black; }
 
 @media (max-width: 575.98px) {
   body {
